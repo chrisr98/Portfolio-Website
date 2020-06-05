@@ -9,14 +9,14 @@
 }
 
 html {
-    background-color: #05486b;
+    background-color: #222629;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Gogoia-Regular;
+    font-family: Prime-Regular;
 }
 
 header {
@@ -29,6 +29,7 @@ header {
     padding: 40px 100px;
     z-index: 10000;
     transition: 0.6s;
+    background: #474b4f;
 }
 
 header .logo {
@@ -84,8 +85,7 @@ header #toggle:after {
     min-height: 100vh;
     padding: 100px;
     /*background: url(../Images/jungle-press-photo.jpg);*/
-    /*background: #778899;*/
-    background: #05486b;
+    background: #222629;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ header #toggle:after {
     right: 0;
     width: 200px;
     height: 100vh;
-    background: #5cdb95;
+    background: #86c232;
     z-index: 1;
 }
 
@@ -113,7 +113,7 @@ header #toggle:after {
     right: -200px;
     width: 200px;
     height: 100vh;
-    background: #379683;
+    background: #6b6e70;
     z-index: 1;
     display: grid;
     place-items: center;
@@ -137,7 +137,7 @@ header #toggle:after {
 #navigation ul li a {
     text-decoration: none;
     display: inline-block;
-    color: #05386b;
+    color: #86c232;
     font-size: 2em;
     font-weight: 600;
     text-transform: uppercase;
@@ -151,10 +151,13 @@ header #toggle:after {
 .content h2 {
     color: #edf5e1;
     font-size: 2.5em;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-top: 2em;
 }
 
 .content h2 span {
-    color: #8ee4af;
+    color: #86c232;
     font-size: 1.2em;
 }
 
@@ -162,18 +165,22 @@ header #toggle:after {
     color: #edf5e1;
     font-size: 1.2em;
     font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 1.5;
 }
 
 .content a {
-    color: #000000;
+    color: #edf5e1;
     font-size: 2.5em;
     font-weight: 500;
-    margin-top: 20px;
+    margin: 10px;
     text-decoration: none;
-    background: #edf5e1;
+    background: linear-gradient(20deg, #86c232, #61892f);
     position: relative;
     display: inline-block;
     padding: 10px 30px;
+    letter-spacing: 2px;
+    border-radius: 40px;
 }
 
 .sci {
@@ -195,12 +202,12 @@ header #toggle:after {
     transition: 0.5s;
     width: 55px;
     height: 55px;
-    border: 1px solid #edf5e1;
+    border: 1px solid #6b6e70;
     margin: 10px 0 0;
 }
 
 .sci li a:hover {
-    background: #edf5e1;
+    background: #6b6e70;
 }
 
 .sci li a img {
@@ -232,7 +239,7 @@ header #toggle:after {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000000;
+    background: #6b6e70;
     z-index: 5;
     transition: transform 0.5s;
     transform-origin: top;
@@ -252,13 +259,18 @@ header #toggle:after {
 
 .container .box .card_ContentBX .card_Content h2 {
     color: #edf5e1;
-    font-weight: 500;
+    font-size: 0.9em;
+    margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .container .box .card_ContentBX .card_Content p {
     color: #edf5e1;
     font-weight: 300;
+    font-size: 1.5em;
+    line-height: 0.1;
+    margin-bottom: 20px;
 }
 
 .card_Face img {
@@ -266,7 +278,7 @@ header #toggle:after {
     display: block;
     background: transparent;
     padding: 8px;
-    border: 1px solid #5cdb95;
+    border: 1px solid #86c232;
     box-shadow: 10px 10px 10px #000000;
 }
 
@@ -281,6 +293,10 @@ header #toggle:after {
         max-width: 700px;
         margin-left: 0px;
         padding-top: 30em;
+    }
+
+    .content h2 {
+        margin-top: -1em;
     }
 
     .sci {
