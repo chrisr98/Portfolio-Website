@@ -94,24 +94,14 @@ header #toggle:after {
 }
 
 .banner.active {
-    transform: translateX(-200px);
-}
-
-#navigation {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 100vh;
-    background: #86c232;
-    z-index: 1;
+    transform: translateX(-300px);
 }
 
 #navigation {
     position: fixed;
     top: 0;
     right: -200px;
-    width: 200px;
+    width: 300px;
     height: 100vh;
     background: #6b6e70;
     z-index: 1;
@@ -138,9 +128,10 @@ header #toggle:after {
     text-decoration: none;
     display: inline-block;
     color: #86c232;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     text-transform: uppercase;
+    padding: 10px 30px;
 }
 
 .content {
@@ -310,5 +301,17 @@ header #toggle:after {
     .container {
         position: absolute;
         top: 10%;
+    }
+
+    .banner.active {
+        transform: translateX(-200px);
+    }
+
+    #navigation {
+        width: 200px;
+    }
+
+    #navigation ul li a {
+        font-size: 1.5em;
     }
 }
