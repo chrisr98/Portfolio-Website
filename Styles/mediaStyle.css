@@ -1,0 +1,64 @@
+/* Change style for screen 1400px or smaller*/
+@media (max-width: 1400px) {
+    .top_form .inner_form:last-child {
+        margin-right: 5000px;
+    }
+}
+
+/* Change style for screen 900px or smaller*/
+@media (max-width: 900px) {
+
+    header {
+        padding: 20px 100px;
+    }
+    .content {
+        max-width: 700px;
+        margin-left: 0px;
+        padding-top: 30em;
+    }
+
+    .content h2 {
+        margin-top: -1em;
+    }
+
+    .sci {
+        position: absolute;
+        display: flex;
+        flex-direction: row-reverse;
+        bottom: 30px;
+        right: 100px;
+    }
+
+    .container {
+        position: absolute;
+        top: 10%;
+    }
+
+    .banner.active {
+        transform: translateX(-200px);
+    }
+
+    #navigation {
+        width: 200px;
+    }
+
+    #navigation ul li a {
+        font-size: 1.5em;
+    }
+
+    #contact_content h2 {
+        left: 25em;
+    }
+    #contact_content p {
+        display: none;
+    }
+
+}
+
+
+/* Change style for screen 800px or smaller*/
+@media (max-width: 800px) {
+    .mid_form .inner_form{
+        margin-top: 100px;
+    }
+}
