@@ -84,7 +84,7 @@ header #toggle:after {
     width: 100%;
     min-height: 100vh;
     padding: 100px;
-    /*background: url(../Images/jungle-press-photo.jpg);*/
+    /*background: url(../Images/...);*/
     background: #222629;
     background-size: cover;
     display: flex;
@@ -175,8 +175,34 @@ header #toggle:after {
 }
 
 .content a:hover {
-    box-shadow: none;
+    box-shadow: 15px 15px 15px #000000;
 }
+
+
+.content ul {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.content ul li {
+    list-style: none;
+    display: inline-block;
+    color: #86c232;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 10px;
+    border:  1px solid #edf5e1;
+    margin: 3px;
+}
+
+.content ul li:hover {
+    background-color: #86c232;
+    color: #222629;
+}
+
 
 .btn {
     color: #edf5e1;
