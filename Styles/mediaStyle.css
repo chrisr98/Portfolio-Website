@@ -1,8 +1,8 @@
 /* Change style for screen 1400px or smaller*/
 @media (max-width: 1400px) {
-    .top_form .inner_form:last-child {
-        margin-right: 5000px;
-    }
+    /*.top_form .inner_form:last-child {*/
+    /*    margin-right: 5000px;*/
+    /*}*/
 }
 
 /* Change style for screen 900px or smaller*/
@@ -14,7 +14,6 @@
     .content {
         max-width: 700px;
         margin-left: 0px;
-        padding-top: 30em;
     }
 
     .content h2 {
@@ -58,7 +57,22 @@
 
 /* Change style for screen 800px or smaller*/
 @media (max-width: 800px) {
-    .mid_form .inner_form{
-        margin-top: 100px;
+    /*.mid_form .inner_form{*/
+    /*    margin-top: 100px;*/
+    /*}*/
+
+    #about-section ul {
+        display: flex;
+        flex-direction: column;
     }
+    #about-section {
+        max-width: 400px;
+        margin-left: -2em;
+        margin-top: 30em;
+    }
+
+    .content {
+        margin-top: 10em;
+    }
+
 }

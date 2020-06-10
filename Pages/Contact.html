@@ -9,50 +9,55 @@
     <script src="../Scripts/onClickScript.js"></script>
 </head>
 <body>
-    <section class="banner" id="sec" >
+    <section class="banner" id="sec">
         <header>
             <a href="index.html" class="logo">Home</a>
             <div id="toggle" onclick="show_dropdown()"></div>
         </header>
         <div id="contact_content">
-            <h2>Let's get in touch</h2>
-            <p>Feel free to reach out to me</p>
+            <h2><span style="color: #86c232">Don't be a stranger</span><br> just say hello</h2>
+            <p>
+                If you have any questions, suggestions, or offers,
+                feel free to send an email and I'll get back to you as soon as possible.
+            </p>
+            <div class="btn">
+                <a onclick="sendEmail()">GET IN TOUCH</a>
+            </div>
         </div>
-        <div class="form_Container">
+<!--        <div class="form_Container">-->
 
-            <div class="top_form">
-                <div class="inner_form">
-                    <div class="label">Name</div>
-                    <input type="text" placeholder="First Last" required id="name">
-                </div>
-                <div class="inner_form">
-                    <div class="label">Email</div>
-                    <input type="email" placeholder="Contact@email.com" required id="email">
-                </div>
-                <div class="inner_form">
-                    <div class="label">Phone</div>
-                    <input type="tel" placeholder="1-111-111-1111" id="phone">
-                </div>
-            </div>
+<!--            <div class="top_form">-->
+<!--                <div class="inner_form">-->
+<!--                    <div class="label">Name</div>-->
+<!--                    <input type="text" placeholder="First Last" required id="name">-->
+<!--                </div>-->
+<!--                <div class="inner_form">-->
+<!--                    <div class="label">Email</div>-->
+<!--                    <input type="email" placeholder="Contact@email.com" required id="email">-->
+<!--                </div>-->
+<!--                <div class="inner_form">-->
+<!--                    <div class="label">Phone</div>-->
+<!--                    <input type="tel" placeholder="1-111-111-1111" id="phone">-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="mid_form">
-                <div class="inner_form">
-                    <div class="label">Subject</div>
-                    <input type="text" placeholder="Subject" required id="subject">
-                </div>
-            </div>
+<!--            <div class="mid_form">-->
+<!--                <div class="inner_form">-->
+<!--                    <div class="label">Subject</div>-->
+<!--                    <input type="text" placeholder="Subject" required id="subject">-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="bottom_form">
-                <div class="inner_form">
-                    <div class="label">Message</div>
-                    <textarea placeholder="Message" onkeyup="charLimit(this, 400);" required id="message"></textarea>
-                </div>
-            </div>
-            <div class="content">
-                <a onclick="sendEmail()">Send</a>
-            </div>
-<!--            <button class="btn" onclick="sendEmail()">SEND</button>-->
-        </div>
+<!--            <div class="bottom_form">-->
+<!--                <div class="inner_form">-->
+<!--                    <div class="label">Message</div>-->
+<!--                    <textarea placeholder="Message" onkeyup="charLimit(this, 400);" required id="message"></textarea>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="content">-->
+<!--                <a onclick="sendEmail()">Send</a>-->
+<!--            </div>-->
+<!--        </div>-->
         <ul class="sci">
             <li><a href="https://github.com/chrisr98" target="_blank"><img src="../Images/github.png"></a></li>
             <li><a href="https://twitter.com/ChrisEmio" target="_blank"><img src="../Images/twitter.png"></a></li>
@@ -67,6 +72,13 @@
             <li><a href="Contact.html">Contact</a></li>
         </ul>
     </div>
+    <div class="footer" id="copyright">
+        <p>&copy;2020 Chris-Emio Raymond</p>
+    </div>
+
+
+
+
 
 
 </body>
