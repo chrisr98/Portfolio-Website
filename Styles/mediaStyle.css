@@ -1,8 +1,21 @@
 /* Change style for screen 1400px or smaller*/
-@media (max-width: 1400px) {
+@media (max-width: 1200px) {
     /*.top_form .inner_form:last-child {*/
     /*    margin-right: 5000px;*/
     /*}*/
+
+    .card {
+        margin-right: -5em;
+    }
+
+    #capsule {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio_Column {
+        margin-bottom: -5em;
+    }
 }
 
 /* Change style for screen 900px or smaller*/
@@ -52,6 +65,9 @@
         display: none;
     }
 
+    .card {
+        width: 400px;
+    }
 }
 
 
@@ -75,4 +91,23 @@
         margin-top: 10em;
     }
 
+    .portfolio_Column {
+        margin-bottom: -5em;
+        transform: translateX(-10px);
+    }
+
+    .card {
+        width: 350px;
+    }
+}
+
+/* Change style for screen 550px or smaller*/
+@media (max-width: 550px) {
+    .portfolio_Column {
+        transform: translateX(-15px);
+    }
+
+    .card {
+        width: 300px;
+    }
 }
