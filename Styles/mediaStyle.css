@@ -111,3 +111,46 @@
         width: 300px;
     }
 }
+
+@media (max-width: 450px) {
+    .portfolio_Column {
+        transform: translateX(-20px);
+    }
+
+    .content {
+        transform: translateX(-15px);
+    }
+}
+
+
+@media (max-width: 375px) {
+    /* STYLES GO HERE */
+    .content {
+        transform: translateX(-20px);
+    }
+
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (orientation : landscape) {
+    /* STYLES GO HERE */
+    .sci {
+        transform: translateY(20px);
+    }
+
+}
+@media (max-width: 350px) {
+    /* STYLES GO HERE */
+    .content {
+        transform: translateX(-20px);
+    }
+
+}
+
+@media (max-width: 320px) {
+    /* STYLES GO HERE */
+    .content {
+        transform: translateX(-20px);
+    }
+}
