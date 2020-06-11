@@ -9,8 +9,7 @@
     }
 
     #capsule {
-        display: flex;
-        flex-direction: column;
+        margin-left: 25%;
     }
 
     .portfolio_Column {
@@ -58,15 +57,24 @@
         font-size: 1.5em;
     }
 
+    #contact_content {
+        transform: translateY(-3em);
+    }
     #contact_content h2 {
         left: 25em;
     }
+
     #contact_content p {
         display: none;
     }
 
     .card {
         width: 400px;
+    }
+
+    #capsule {
+        margin-left: 20%;
+        margin-top: 8em;
     }
 }
 
@@ -96,8 +104,18 @@
         transform: translateX(-10px);
     }
 
+    #capsule {
+        margin-left: 15%;
+    }
     .card {
         width: 350px;
+    }
+}
+
+/* Change style for screen 750px or smaller*/
+@media (max-width: 750px) {
+    #capsule {
+        margin-left: 10%;
     }
 }
 
@@ -109,6 +127,10 @@
 
     .card {
         width: 300px;
+    }
+
+    #capsule {
+        margin-left: 5%;
     }
 }
 
